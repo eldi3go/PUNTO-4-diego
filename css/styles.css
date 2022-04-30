@@ -1,0 +1,152 @@
+#fondo{
+    background-image: url(../imagenes/fodo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1200px;
+}
+#titulo-principal{
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    border-width: 3px;
+    border-style: solid;
+    animation: animacion 2s infinite;
+}
+@keyframes animacion{
+    0%{
+        border-color: blue;
+    }
+    20%{
+        border-color: brown;
+    }
+    50%{
+        border-color: white;
+    }
+    100%{
+        border-color: crimson;
+    }
+}
+/* --------------------------------------------------------------------------------------- */
+.compra-huevos{
+    text-align: center;
+    position: relative;
+   
+
+}
+.huevos{
+    background-image: url(../imagenes/huevos1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 70%;
+    box-shadow: 7px 14px 20px hsl(3, 4%, 5%);
+}
+.total-huevos{
+    position: relative;
+    left: 30%;
+    bottom: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px black;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+.compra-leche{
+    text-align: center;
+    position: relative;
+}
+.leche{
+    background-image: url(../imagenes/leche.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 70%;
+    box-shadow: 7px 14px 20px hsl(3, 4%, 5%);
+}
+.total-leche{
+    position: relative;
+    left: 30%;
+    bottom: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px black;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+#fondoD{
+    background-image: url(../imagenes/fondo23.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    bottom: 250px;
+  
+}
+/* -------------------------------------------------------------- */
+.compra-pan{
+    text-align: center;
+    position: relative;
+    
+    color: rgb(26, 24, 24);
+
+}
+.pan{
+    background-image: url(../imagenes/pan-largo-del-pan-22826883.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 3%;
+    top: 100px;
+    box-shadow: 7px 14px 20px hsl(3, 4%, 5%);
+    font-size: 20px;
+    
+   
+}
+.total-pan{
+    position: relative;
+    bottom: 20px;
+    right: 450px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px black;
+}
+/* -------------------------------------------------------------------------------- */
+.compra-fruta{
+    text-align: center;
+    position: relative;
+    color: rgb(33, 30, 30);
+}
+.fruta{
+    background-image: url(../imagenes/fruta.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 5%;
+    top: 100px;
+    box-shadow: 7px 14px 20px hsl(3, 4%, 5%);
+    font-size: 20px;
+}
+.total-fruta{
+    position: relative;
+    bottom: 20px;
+    right: 450px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px black;
+}
+
+.boton{
+    position: relative;
+    top: 200px;
+    transform: scale(20deg);
+    transition:0.2s;
+}
+.boton:hover{
+    transform: scale(1.1);
+}
+     
